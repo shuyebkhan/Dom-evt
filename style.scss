@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp1843758.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .nav {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 60px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+
+        .logo {
+            color: aqua;
+            font-weight: bold;
+        }
+
+        .menu {
+            color: white;
+
+            
+                ul {
+                    display: flex;
+                    list-style: none;
+
+                    li {
+                        padding: 0 17px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+  
+//   .togl{
+//         color: aqua;
+//     }
+  
+
+
+    // NAVBAR END
+   .content{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 20px 20px;
+        margin: 0px 0px;
+        
+        h1{
+            color: white; 
+            padding: 10px 0;  
+             
+          }
+
+        p{ 
+              color: slategrey;
+              font-size: 20px;
+        }
+   }
+
+
+   .btn{
+       position: absolute;
+       top: 63%;
+       left: 50%;
+       transform: translate(-50%,-63%);
+       display: flex;
+       justify-content: center;
+   
+      
+       button{
+        padding: 4px 35px;
+        border-radius: 10px;
+        background-color: transparent;
+        cursor: pointer;
+        color: white;
+        border: 1px solid aqua;
+        margin: 0px 10px;
+
+       }
+   }
+
+   button:hover{
+        background-color: white;
+        color: aqua;
+        border: 1px solid aqua;
+   }
+
+
+
+
+
+// ABOUT US STYLES.
+
+.about{
+    // height: 100vh;
+    height: 80vh;
+    width: 100%;
+
+   .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        // padding-top: 15%;
+        padding-top: 8%;
+
+
+        .data{
+              
+              width: 40%;
+        }
+   }
+}
+
+.btn2 button {
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+
+
+  .image{
+       width: 40%;
+   img{
+    height: 60vh;
+    width: 100%;
+    border-radius:50px ;
+ }
+}
+
+
+
+// EVENT STYLE.
+
+.color{
+    // height: 100vh;
+    display: grid;
+    grid-gap: 3em;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: 250px 250px;
+   text-align: center;
+
+   .red{
+     background-color: red;
+    display: block;
+
+   }
+   .green{
+    background-color: green;
+ }
+ 
+ .blue{
+    background-color:blue;
+
+ }
+ .yellow{
+    background-color: yellow;
+ 
+ }
+}
+
+
+
+// STYLE FORM.
+.form{
+    height: 40vh;
+    display: grid;
+};
+
+#fm{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  input{
+    width: 100px;
+  }
+};
+
+
+
+.test{
+    border: 1px solid red;
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+
+.contain{
+    display: flex;
+    gap:0.5rem;
+    flex-direction: column;
+}
+
+button{
+    width: 200px;
+    text-align: center;
+}
